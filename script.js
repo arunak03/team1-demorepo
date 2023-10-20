@@ -17,3 +17,10 @@ function clickHandler(){
              
         }
      document.addEventListener("DOMContentLoaded",init);
+
+
+     function showImage(imageUrl){
+        var displayedImage = document.getElementById('displayed-image');
+        displayedImage.src = imageUrl
+    }
+    

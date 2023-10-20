@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbnail Example</title>
+    <link rel="stylesheet" href="css/desktop.css">
+    <script src="https://kit.fontawesome.com/11d64471d7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="row">
+            <div class = "column-1">
+                <div class="display">
+                    <img id="displayed-image" src="Images/detailPicture1.png">
+                </div>
+                <div class="thumbnails-container">
+                    <img class="thumbnail" src = "Images/detailPicture1.png" onclick="showImage('Images/detailPicture1.png')">
+                    <img class="thumbnail" src = "Images/detailPicture2part2.png" onclick="showImage('Images/detailPicture2part2.png')">
+                    <img class="thumbnail" src = "Images/detailPicture3part2.png" onclick="showImage('Images/detailPicture3part2.png')">
+                    <img class="thumbnail" src = "Images/detailPicture4part2.png" onclick="showImage('Images/detailPicture4part2.png')">
+                </div>
+            </div>
+            <div class="column-2">
+                <h6>Bakery Biscuits</h6>
+                <h2>Napolitanke Ljesnjak</h2>
+                <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #FFDF00;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFDF00;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFDF00;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFDF00;"></i>
+                    <i class="fa-solid fa-star-half-stroke" style="color: #FFDF00;"></i>
+                    <span class="review">(30 reviews)</span>
+                </div>
+                <div class="clear"></div>
+                
+                <h4> $32 <del> $35 </del> <span>26% Off </span></h4>
+                <hr><br>
+                <span class="size">250g</span>
+                <span class="size">500g</span>
+                <span class="size">1kg</span>
+                <div class="btn">
+                    <button>-</button><button>1</button><button>+</button>
+                </div>
+                <div class="icons">
+                    <button id="button">Add to cart  <i class="fa-solid fa-bag-shopping"></i></button>
+                    <button class="icon"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="icon"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <br><hr><br>
+                <div class="information">
+                    <table>
+                        <thead></thead>
+                        <tbody>
+                            <tr>
+                                <td>Product: </td>
+                                <td>FBB00255 </td>
+                            </tr>
+                            <tr>
+                                <td>Availability: </td>
+                                <td>In Stock </td>
+                            </tr>
+                            <tr>
+                                <td>Type: </td>
+                                <td>Fruits </td>
+                            </tr>
+                            <tr>
+                                <td>Shipping: </td>
+                                <td>01 day shipping.<span>(Free pickup today)</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                   
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
