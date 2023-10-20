@@ -1,0 +1,96 @@
+#header{ 
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+.container{
+    position: relative;
+   
+}
+
+
+
+#header .searchBar{
+    height:35px;
+    width:400px;
+    margin: 15px;
+    margin-left:100px;
+    margin-right: 150px;
+    flex: auto;
+    border-radius: 0.4rem;
+    border-width: thin;
+   
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:15px 15px ;
+    padding: 10px;
+}
+.nav{
+    margin:10px;
+}
+#popup-body {
+    height:450px;
+    width:350px;
+    display: none;
+    align-items: center;
+    border-radius: 0.8rem;
+    z-index: 1;
+    margin:auto; 
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color:white;
+    box-shadow: 0px 2px 5px 5px rgb(196, 189, 189);
+
+   
+  
+}
+#cross{
+ position: absolute;
+ cursor:pointer;
+ font-size: 25px;
+ margin-left:320px;
+ background-color: transparent;
+ border: none;
+}
+.LocationTable{
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+tr{
+    border-bottom:1px solid rgb(179, 172, 172);
+}
+td:nth-child(odd)
+{
+    float:inline-start;
+
+}
+td:nth-child(even){
+    float:inline-end;
+}
+th{
+    padding:10px;
+}
+td{
+    padding:10px;
+
+}
+tr:hover{
+    background-color: rgb(198, 195, 195);
+}
+#areaSearch{
+    border-radius: 0.4rem;
+    width: 100%;
+    height: 30px;
+}
+#loc{
+    padding-left:0px;
+}
+.clearBtn{
+background-color: transparent;
+border-radius: 0.4rem;
+height:30px;
+
+}
+

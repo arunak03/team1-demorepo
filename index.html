@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery</title>
+    <link rel="stylesheet" href="styles/norml.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <script src="script.js"></script>
+    
+</head>
+    <header id="header">
+        <a href="#"><img src="./Images/logo.PNG" alt="logo" class="logo-image" height='70px' width='70px'></a>
+        <input type="search" placeholder="Search for Products" class="searchBar" style=" background-image:url(Images/search-bar.png)">
+        <div class="nav">
+        <a href="#"><img src="./Images/like.png" alt="logo" class="like-image" height='35px' width='35px'></a>
+        <a href="#" id="location"><img src="./Images/location.png" alt="logo"  id="location-image" height='35px' width='35px' onclick="toggle()"></a>
+        <a href="#"><img src="./Images/person.png" alt="logo" id="person-image" height='35px' width='35px'></a>
+        <a href="#"><img src="./Images/cart.png" alt="logo" id="cart-image" height='35px' width='35px'></a>
+         </div>
+    </header>
+    <hr>
+    <div class="container" id="blur">
+        <div  id="popup-body">
+        <button class="close-button" id="cross">&times;</button>
+        <p style="font-size: 18px; font-family: sans-serif;">Choose Your Delivery location </p>
+        <p style="font-size: 15px;">Enter your address and we will specify the offer you area.</p>
+        <input type="search" placeholder="Search your area." id="areaSearch">
+        
+        <table class="LocationTable">
+         <thead>
+           <tr>
+            <td id="loc"><b>Select Location</b></td>
+            <td><button class="clearBtn">clear all</button></td>
+           </tr>
+         </thead>
+         <tbody>
+            <tr>
+                <td>Albama</td>
+                <td>Min:$20</td>
+            </tr>
+            <tr>
+                <td>Alaska</td>
+                <td>Min:$30</td>
+            </tr>
+            <tr>
+                <td>Arizona</td>
+                <td>Min:$50</td>
+            </tr>
+            <tr>
+                <td>California</td>
+                <td>Min:$29</td>
+            </tr>
+            <tr>
+                <td>Colorado</td>
+                <td>Min:$80</td>
+            </tr>
+            <tr>
+                <td>Florida</td>
+                <td>Min:$90</td>
+            </tr>
+         </tbody>
+        </table>
+
+   </div>
+</div>
+</body>
+</html>

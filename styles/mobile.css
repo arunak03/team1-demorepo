@@ -1,0 +1,25 @@
+
+@media screen and (max-width: 740px) {
+    #header .searchBar {
+        width: 90%; 
+        margin: 10px;
+    }
+
+    #popup-body {
+        width: 50%;
+    }
+
+    #cross {
+        font-size: 18px; 
+    }
+    .nav{
+        margin:0px;
+    }
+
+}
+@media screen and (max-width: 740px){
+    header{
+        height: auto;
+        flex: none;
+    }
+}
