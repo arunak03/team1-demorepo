@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thumbnail Example</title>
-    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="styles/norml.css">
     <script src="https://kit.fontawesome.com/11d64471d7.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <div id="container">
@@ -74,7 +75,103 @@
                 </div>
             </div>
         </div>
-    <script src="script.js"></script>
+
+        <section id="infopage">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" id="product" class="nav-link active-link" onclick="showSegment('product_detail','product')">Product Details</a></li>
+                    <li><a href="#" id="info" class="nav-link" onclick="showSegment('product_information','info')">Information</a></li>
+                    <li><a href="#" id="reviews"class="nav-link" onclick="showSegment('review_tab','reviews')">Reviews</a></li>
+                    <li><a href="#" id="sellerinfo" class="nav-link"  onclick="showSegment('seller_info','sellerinfo')">Seller Info</a></li>
+                </ul>
+                <div class="active-line"></div>
+             
+            </nav>
+            <br>
+        
+            <div class="segment" id="product_detail">
+                <h1>Nutrient Value & Benefits</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tenetur rerum in beatae earum, dignissimos optio repellat repudiandae suscipit eligendi ad, mollitia omnis placeat blanditiis voluptas, itaque quisquam sed illo porro! Voluptas tenetur minus ea inventore repellat dolorem, cumque libero quibusdam? Minima, laborum. Molestiae repellat repudiandae facilis voluptatum nemo quia.</p>
+                <h3>Storage Tips</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ab error quod aspernatur, adipisci ducimus cupiditate rem officia esse maxime iusto placeat nam sapiente dignissimos iste vero reprehenderit doloremque voluptatem?</p>
+                <h3>Unit</h3>
+                <p>3 units</p>
+                <h3>Seller</h3>
+                <p>DMart Pvt. LTD</p>
+                <h3>Disclaimer</h3>
+                <p>Images shown is a representation and may vary from the actual product.Every effort is maintain accuracy of information displayed</p>
+        
+        
+            </div>
+            <div class="segment" id="product_information">
+                <h2>Details</h2>
+                <section class="table-container">
+                <table>
+                    <tr>
+                        <td>Weight</td>
+                        <td>1000 Grams</td>
+                    </tr>
+                    <tr>
+                        <td>Ingredient Type</td>
+                        <td>Vegetarian</td>
+                    </tr>
+                    <tr>
+                        <td>Brand</td>
+                        <td>Dmart</td>
+                    </tr>
+                    <tr>
+                        <td>Item Package Quantity</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Form</td>
+                        <td>larry the Bird</td>
+                    </tr>
+                    <tr>
+                        <td>Manufacturer</td>
+                        <td>Dmart</td>
+                    </tr>
+                    <tr>
+                        <td>Net Quantity </td>
+                        <td>340.0 Gram</td>
+                    </tr>
+                    <tr>
+                        <td>Product Dimensions</td>
+                        <td>9.6 &times 7.49 &times 18.49 cm</td>
+                    </tr>
+                   
+                </table>
+                </section>
+                <section class="table-container">
+                <table>
+                    <tr>
+                        <td>ASIN</td>
+                        <td>SB0025UJ75W</td>
+                    </tr>
+                    <tr>
+                        <td>Best Sellers Rank</td>
+                        <td>#2 in Fruits</td>
+                    </tr>
+                    <tr>
+                        <td>Date First Available</td>
+                        <td>30 April 2022</td>
+                    </tr>
+                    <tr>
+                        <td>Item Weight</td>
+                        <td>500g</td>
+                    </tr>
+                    <tr>
+                        <td>Generic Name</td>
+                        <td>Banana Robusta</td>
+                    </tr>
+                </table>
+            </section>
+            <div class="clear"></div>
+            </div>
+            <div class="segment" id="review_tab"><h4>--need to be added--</h4></div>
+            <div class="segment" id="seller_info"><h4>--need to be added--</h4></div>
+        </section>
+
 </body>
 
 </html>
