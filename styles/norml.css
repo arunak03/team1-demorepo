@@ -94,7 +94,7 @@ height:30px;
 
 }
 
-body {
+.sparsh {
     max-width: 1320px;
     margin: 0 auto; 
     
@@ -310,7 +310,179 @@ body {
     font-weight: bolder;
 }
 
+/*               
 
+
+
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1.7;
+  }
+  
+  main {
+    width: 1320px;
+    margin: auto;
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgb(42, 188, 42);  
+  }
+  
+  .custom-hr{
+    border: none;
+    border-top: 1px solid rgb(226, 223, 223);
+    margin: 20px 0;
+  }
+  
+  .special-offers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .special-offers p{
+    color: grey;
+  }
+  
+  .specialoffers {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 20px 0px;
+  }
+  
+  .specialoffers article{
+    flex: 1;
+    border: 1px solid rgb(235, 232, 232);
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .specialoffers pre{
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .specialoffers span{
+    background-color: rgb(116, 175, 253);
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .starchoco{
+    color: red !important;
+    background-color: #fff !important;
+  }
+  
+  .offer-price{
+    color: red;
+  }
+  
+  .offer-price del{
+    color: gray;
+  }
+  
+  p.availibility{
+    color: rgb(5, 170, 5);
+  }
+  
+  .specialoffers p:last-child{
+    color: grey;
+  }
+  
+  .specialoffers p:last-child span{
+    color: black;
+    background-color: #fff;
+  }
+  
+  .sign-up {
+    background: rgba(0, 30, 43, 1) url("images/pattern.svg") no-repeat;
+    height: fit-content;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  .sign-up p{
+    margin: 10px 0;
+    color: grey;
+  }
+  
+  .sign-up p:first-child{
+    color: #fff;
+  }
+  
+  .sign-up input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #signup{
+    background-color: rgb(37, 218, 37);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  footer {
+    background-color: rgb(239, 239, 252);
+    width: 100%;
+  }
+  
+  footer section {
+    width: 1320px;
+    margin: 0px auto;
+  }
+  
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .about p{
+    color: gray;
+  }
+  
+  .categories {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subcategory {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+  
+  .payment-bar {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10%;
+  }
+  
+  .social-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    color: gray;
+  }
+  
 
 
 
